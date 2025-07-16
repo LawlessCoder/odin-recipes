@@ -1,4 +1,6 @@
 .homepage__card {
+    display: flex;
+    flex-direction: column;
     outline: 3px solid var(--main-font-color);
     background-color: var(--homepage-card-background-color);
     padding: 30px;
