@@ -1,0 +1,25 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables (if any)
+.env
+
+# Node.js (if using npm for tooling later)
+node_modules/
+
+# Dist or build output (if you add a bundler)
+dist/
+build/
+
+# Editor/IDE-specific files
+.vscode/
+.idea/
+*.swp
+
+# Cache files
+.cache/
+*.cache
