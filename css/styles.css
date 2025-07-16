@@ -1,3 +1,9 @@
+:root {
+    --main-bg-color: #FED049;
+    --main-font-color: #000000;
+    --homepage-card-background-color: #FFFFFF;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -5,4 +11,30 @@ body {
     min-height: 100vh;
     min-width: 100vw;
     margin: 0;
+    background-color: var(--main-bg-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.homepage__card {
+    /* display: flex; */
+    /* flex-direction: column; */
+    outline: 3px solid var(--main-font-color);
+    background-color: var(--homepage-card-background-color);
+    padding: 30px;
+    color: var(--main-font-color);
+}
+
+.homepage__title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.homepage__description {
+    font-size: 1.0625rem;
+    margin: -5px;
+}
+
+.homepage__recipe-list {
+    margin: 40px;
+    font-size: 1rem;
 }
