@@ -1,35 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Burrito Recipe</title>
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/recipe.css" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Burrito Recipe</h1>
-
-    <a href="../index.html">Home</a>
+    <main class="card">
+        <h1 class="card__title">Burrito Recipe</h1>
+            
+        <a href="../index.html" class="card__return-link">Home</a>
+        
+        <img src="../assets/images/burrito.avif" alt="Burrito next to some salsa and fries." width="1864" height="1122" class="card__image">
     
-    <img src="../assets/images/burrito.avif" alt="Burrito next to some salsa and fries." width="1864" height="1122">
-
-    <h2>Description</h2>
-
-    <p>What I am about to write will change your life: a burrito with no filling is merely a tortilla with no heart or soul.</p>
-
-    <h2>Ingredients</h2>
-
-    <ul>
-        <li>Lorem ipsum dolor sit.</li>
-        <li>Iusto eius sequi, error excepturi mollitia fugit.</li>
-        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-    </ul>
-
-    <h2>Steps</h2>
-    <ol>
-        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-        <li>Expedita, repudiandae dicta. Exercitationem illo cumque temporibus.</li>
-        <li>Lorem earum autem necessitatibus impedit voluptatem neque repellendus, doloribus obcaecati nulla doloremque dicta totam laborum tenetur.</li>
-        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-    </ol>
+        <div class="card__description">
+            <h2 class="card__description-title">Description</h2>
+            <p class="card__description-text">What I am about to write will change your life: a burrito with no filling is merely a tortilla with no heart or soul.</p>
+        </div>
+    
+        <div class="card__ingredients">
+            <h2 class="card__ingredients-title">Ingredients</h2>
+            <ul class="card__ingredients-list">
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Expedita, repudiandae dicta. Exercitationem illo cumque temporibus.</li>
+                <li>Lorem earum autem necessitatibus impedit voluptatem neque repellendus, doloribus obcaecati nulla doloremque dicta totam laborum tenetur.</li>
+                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+            </ul>
+        </div>
+    
+        <div class="card__steps">
+            <h2 class="card__steps-title">Steps</h2>
+            <ol class="card__steps-list">
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Iusto eius sequi, error excepturi mollitia fugit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            </ol>
+        </div>
+    </main>
 </body>
+
 </html>
